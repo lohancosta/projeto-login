@@ -1,4 +1,6 @@
 
+/* configuração para tablet */
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
     body{
@@ -7,6 +9,7 @@
 
     #login {
         width: 80vw;
+        height: 280px;
     }
 
     #login > #image {
@@ -19,7 +22,13 @@
         float: right;
         width: 70%;
     }
+
+    #form > p {
+        text-align: justify;
+    }
 }
+
+/* configuração para desktop */
 
 @media screen and (min-width: 992px) {
 
@@ -29,6 +38,7 @@
     
     #login {
         width: 970px;
+        height: 350px;
     }
 
     #login > #image {
@@ -47,7 +57,9 @@
     }
 
     #form > p {
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 20px 0px;
+        text-align: justify;
     }
 
 }
